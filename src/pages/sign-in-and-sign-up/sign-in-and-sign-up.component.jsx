@@ -1,8 +1,9 @@
 import React from 'react';
 
-import './sigin.styles.scss'
+import './sign-in-and-sign-up.styles.scss'
 
 import SignInForm from '../../components/sign-in/sign-in.component';
+import SignUp from '../../components/sign-up/sign-up.component';
 
 // class SignIn extends Component {
 //     constructor(props){
@@ -18,8 +19,9 @@ import SignInForm from '../../components/sign-in/sign-in.component';
 // }
 
 const SignIn = () => (
-    <div>
+    <div className="sign-in-and-sign-up">
         <SignInForm/>
+        <SignUp/>
     </div>
 )
 
