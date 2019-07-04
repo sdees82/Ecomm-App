@@ -18,11 +18,11 @@ import SignUp from '../../components/sign-up/sign-up.component';
 //     }
 // }
 
-const SignIn = () => (
+const SignInAndSignUp = () => (
     <div className="sign-in-and-sign-up">
         <SignInForm/>
         <SignUp/>
     </div>
 )
 
-export default SignIn;
+export default SignInAndSignUp;
